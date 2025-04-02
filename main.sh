@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Fetch dates from the API
-response=$(curl -s http://localhost:3000/api)
+response=$(curl -s https://ethelwold-watering-system.vercel.app/page)
 
 # Get today's date in the same format as the API response
 today=$(date +"%a %b %d %Y")
